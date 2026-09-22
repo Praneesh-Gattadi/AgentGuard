@@ -1,4 +1,4 @@
-# AgentGuard — Autonomous Agent Runtime Security
+# AgentGuard - Autonomous Agent Runtime Security
 
 > **Intercept. Simulate. Repair. Execute Safely.**
 
@@ -62,14 +62,14 @@ The following diagram presents the proposed runtime security pipeline:
 
 ## 5. Dual-Engine Decision Model
 
-### Engine 1 — Deterministic Enforcement
+### Engine 1 - Deterministic Enforcement
 
 - Policy rules
 - AST and structural analysis
 - Risk classification
 - Hard blocking and escalation
 
-### Engine 2 — Constrained Recovery
+### Engine 2 - Constrained Recovery
 
 - Impact simulation
 - Optional Gemini Flash repair
@@ -82,7 +82,7 @@ The following diagram presents the proposed runtime security pipeline:
 
 The architecture presentation has been consolidated into this README so that reviewers can understand the complete concept without opening a separate PowerPoint file.
 
-### Slide 1 — AgentGuard
+### Slide 1 - AgentGuard
 
 **Autonomous Agent Runtime Security**
 
@@ -91,7 +91,7 @@ The architecture presentation has been consolidated into this README so that rev
 - Constrained recovery and re-validation
 - Explainable decisions and auditability
 
-### Slide 2 — The Operational Problem
+### Slide 2 - The Operational Problem
 
 Agentic systems may create:
 
@@ -101,15 +101,15 @@ Agentic systems may create:
 - Supply-chain and dependency risks
 - Runaway loops, resource usage, and cost drain
 
-### Slide 3 — Runtime Security Pipeline
+### Slide 3 - Runtime Security Pipeline
 
 The request flows through interception, normalization, policy and AST analysis, sandbox simulation, optional repair, re-validation, and a final execute/block/escalate decision.
 
-### Slide 4 — Dual-Engine Decision Model
+### Slide 4 - Dual-Engine Decision Model
 
 The first engine provides deterministic enforcement. The second supports constrained recovery through sandbox analysis and optional AI-assisted repair. Both paths remain inside the same validation process.
 
-### Slide 5 — Proof of Concept
+### Slide 5 - Proof of Concept
 
 The proposed demonstration uses two synchronized views:
 
@@ -117,7 +117,7 @@ The proposed demonstration uses two synchronized views:
 - **SOC War Room:** Displays interception, evidence, risk, sandbox impact, repair, and the final decision.
 - **Audit Trail:** Records the complete decision sequence.
 
-### Slide 6 — Technology Direction
+### Slide 6 - Technology Direction
 
 - Python and FastAPI
 - `sqlglot` AST analysis for supported SQL
@@ -126,7 +126,7 @@ The proposed demonstration uses two synchronized views:
 - Stitch/Tailwind-style SOC interface
 - WebSockets and structured audit events
 
-### Slide 7 — Evaluation and Limitations
+### Slide 7 - Evaluation and Limitations
 
 - Measure latency under documented test conditions
 - Evaluate false positives and false negatives
@@ -134,7 +134,7 @@ The proposed demonstration uses two synchronized views:
 - Treat sandbox results as estimates
 - Expand coverage through adversarial testing
 
-### Slide 8 — Roadmap
+### Slide 8 - Roadmap
 
 - **MVP:** Interception, SQL demonstration, sandbox, repair, SOC view
 - **Next:** More tool adapters, configurable policies, approval workflows, benchmarks
