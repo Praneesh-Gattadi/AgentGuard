@@ -46,7 +46,7 @@ Audit + Live Monitoring
 
 The following diagram presents the proposed runtime security pipeline:
 
-![AgentGuard Architecture](diagrams/AgentGuard_Architecture.png)
+<img width="1800" height="1100" alt="Image" src="https://github.com/user-attachments/assets/35f50d80-01da-4efc-a69f-fcd12d896a9e" />
 
 ### Architecture Walkthrough
 
