@@ -78,7 +78,7 @@ The following diagram presents the proposed runtime security pipeline:
 
 **Important:** A generated repair must never bypass deterministic validation.
 
-## 6. Architecture Presentation — Included in This README
+## 6. Architecture Presentation - Included in This README
 
 The architecture presentation has been consolidated into this README so that reviewers can understand the complete concept without opening a separate PowerPoint file.
 
